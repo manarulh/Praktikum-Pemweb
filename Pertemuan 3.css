@@ -1,0 +1,297 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*style*/
+
+
+body{
+	font: 16px/28px arial, sans-serif;
+	background-color: #eaeaea;
+	color: #333;
+}
+
+.dark-mode {
+	display: flex;
+	flex-direction: column;
+	font-family: sans-serif;
+	margin-left: 30px;
+	margin-bottom: 30px;
+  background-color: black;
+  color: white;
+}
+
+.container{
+	width: 960px;
+	margin: 30px auto;
+	background-color: white;
+	position: relative;
+}
+
+.header{
+	width: 960px;
+	height: 200px;
+	background-color: skyblue;
+	position: relative;
+}
+
+.profil{
+	float: left;
+	padding: 20px auto;
+	margin-left: 15px;
+}
+.profil img{
+	width: 150px;
+}
+
+.kenal{
+	padding: 29px 0 0 20px;
+	font-weight: bold;
+	color: white;
+}
+
+.kenal h1{
+	font-size: 25px;
+	font-family: verdana;
+}
+
+.kenal strong{
+	color: #4b58c3;
+}
+
+.kenal p{
+	font-size: 12px;
+	font-family: serif;
+}
+
+.navigasi{
+	height: 40px;
+	background-color: #4b58c3;
+	margin-bottom: 20px;
+}
+.nav{
+	float: right;
+	padding-top: 5px;
+}
+
+.nav li{
+	display: inline-block;
+	padding-right: 20px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+	font-family: serif;
+	font-weight: bold;
+}
+
+a:hover{
+	background-color: lightseagreen;
+	color: yellow;
+}
+
+.me{
+	width: 960px;
+	height: 300px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.tentang{
+	width: 105px;
+	height: 30px;
+	margin-bottom: 20px;
+	background-color: #4b58c3;
+}
+
+.tentang h3{
+	padding-left: 10px;
+	font-size: 15px;
+	font-family: serif;
+	font-weight: bold;
+	color: white;
+}
+
+.p{
+	width: 410px;
+	height: 220px;
+	margin-left: 50px;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: whitesmoke;
+	float: left;
+	overflow: auto;
+	border-radius: 10px;
+}
+
+.p p{
+	text-align: justify;
+	font-family: verdana;
+	font-size: 12px;
+}
+
+.video{
+	width: 410px;
+	height: 220px;
+	float: right;
+}
+
+.peng{
+	width: 960px;
+	height: 300px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.pengalaman{
+	width: 147px;
+	height: 30px;
+	background-color: #4b58c3;
+	margin-bottom: 20px;
+}
+
+.pengalaman h3{
+	padding-left: 10px;
+	font-size: 15px;
+	font-family: serif;
+	font-weight: bold;
+	color: white;
+}
+
+.table{
+	margin-left: 120px;
+	font-family: sans-serif;
+	color: #444;
+	border-collapse: collapse;
+	width: 660px;
+}
+
+.table tr th{
+	background: skyblue;
+	color: #fff;
+	font-weight: bold;
+}
+
+.table tr td{
+	font-size: 14px;
+}
+
+.table, th, td{
+	padding: 8px 20px;
+	text-align: center;
+	border: 1px solid #f2f5f7;
+}
+
+.table tr:hover{
+	background-color: #f5f5f5;
+}
+
+.table tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+
+.kontak{
+	width: 960px;
+	height: 300px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.hub{
+	width: 110px;
+	height: 30px;
+	background-color: #4b58c3;
+	margin-bottom: 20px;
+}
+
+.hub h3{
+	padding-left: 10px;
+	font-size: 15px;
+	font-family: serif;
+	font-weight: bold;
+	color: white;
+}
+
+.form{
+	width: 260px;
+	height: 200px;
+	background-color: skyblue;
+	border-radius: 10px;
+	margin-left: 50px;
+	padding: 10px 20px;
+	font-size: 14px;
+	font-family: verdata;
+}
+
+.sub{
+	width: 80%;
+	margin: 5px auto;
+	background-color: #4b58c3;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer{
+	color: #4b58c3;
+	background-color: whitesmoke;
+	text-align: center;
+	font-family: verdata;
+	font-weight: bold;
+}
+
+.submitbutton{
+	margin-top: 30px;
+}
+.buttontema{
+	margin-right: 30px;
+}
